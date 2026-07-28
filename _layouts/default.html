@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="{{ page.lang | default: 'ko' }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ page.title }} · Zzang Alarm</title>
+<style>
+  :root { color-scheme: light dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0 auto; padding: 24px 20px 64px; max-width: 760px;
+    font: 16px/1.75 -apple-system, BlinkMacSystemFont, "Segoe UI",
+          "Noto Sans KR", "Hiragino Sans", sans-serif;
+    color: #241912; background: #fff8f5;
+    word-break: keep-all; overflow-wrap: anywhere;
+  }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2e9e3; background: #1a110a; }
+    td, th { border-color: #3a281c !important; }
+    thead th { background: #2c1d14 !important; }
+    blockquote { background: #2c1d14 !important; }
+    a { color: #ffb970 !important; }
+  }
+  h1 { font-size: 1.6rem; margin: 0 0 4px; }
+  h2 { font-size: 1.2rem; margin: 2.2em 0 .6em; }
+  a { color: #b35c00; }
+  table { border-collapse: collapse; width: 100%; margin: 1em 0; font-size: .93rem; display: block; overflow-x: auto; }
+  th, td { border: 1px solid #e6d5c8; padding: 8px 10px; text-align: left; vertical-align: top; }
+  thead th { background: #fff1e9; }
+  blockquote { margin: 1.2em 0; padding: 12px 16px; background: #fff1e9;
+               border-left: 4px solid #ff8c00; border-radius: 6px; }
+  code { background: rgba(128,128,128,.16); padding: 1px 5px; border-radius: 4px; font-size: .9em; }
+  hr { border: 0; border-top: 1px solid #e6d5c8; margin: 2.5em 0; }
+  .nav { margin-bottom: 2em; font-size: .9rem; }
+  .nav a { margin-right: 12px; }
+  footer { margin-top: 3em; font-size: .85rem; opacity: .75; }
+</style>
+</head>
+<body>
+<div class="nav"><a href="{{ '/' | relative_url }}">&larr; Zzang Alarm Legal</a></div>
+{{ content }}
+<footer>InnoCode · innocode.core@gmail.com</footer>
+</body>
+</html>

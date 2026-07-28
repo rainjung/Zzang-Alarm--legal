@@ -1,0 +1,8 @@
+title: Zzang Alarm — Legal
+description: Terms of Use and Privacy Policy for the Zzang Alarm mobile app.
+markdown: kramdown
+kramdown:
+  input: GFM
+# 테마 의존 없이 _layouts/default.html만 사용한다(빌드 실패 위험 최소화).
+exclude:
+  - README.md
