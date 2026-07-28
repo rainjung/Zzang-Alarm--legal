@@ -8,14 +8,6 @@ lang: en
 
 > ⚠️ Legal review is recommended before publication. Update the operator details if the business registration or trade name changes.
 
-| Item | Value |
-| --- | --- |
-| Service | Zzang Alarm |
-| Operator | InnoCode |
-| Business registration no. | 277-39-01496 |
-| Privacy officer / contact | InnoCode · innocode.core@gmail.com |
-| Effective date | 2026-07-28 |
-
 This policy explains how Zzang Alarm (the "Service") handles your personal information. The Service is built on the principles of **minimal collection** and **on-device (local-first) storage**.
 
 ---

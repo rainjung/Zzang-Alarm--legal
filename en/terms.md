@@ -8,14 +8,6 @@ lang: en
 
 > ⚠️ Legal review is recommended before publication. Update the operator and jurisdiction clauses if the business registration or trade name changes.
 
-| Item | Value |
-| --- | --- |
-| Service | Zzang Alarm |
-| Operator | InnoCode |
-| Business registration no. | 277-39-01496 |
-| Contact | innocode.core@gmail.com |
-| Effective date | 2026-07-28 |
-
 ---
 
 ## 1. Purpose

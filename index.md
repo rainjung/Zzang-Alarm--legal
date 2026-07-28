@@ -30,9 +30,3 @@ Legal documents for the Zzang Alarm mobile app. / Zzang Alarm の法的告知文
 > On iOS, alarms will not sound if you force-quit the app or restart the device — see Article 4 of the Terms.
 
 ---
-
-| 항목 | 값 |
-| --- | --- |
-| 운영자 | InnoCode |
-| 사업자등록번호 | 277-39-01496 |
-| 문의 | innocode.core@gmail.com |

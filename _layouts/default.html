@@ -17,9 +17,10 @@
   @media (prefers-color-scheme: dark) {
     body { color: #f2e9e3; background: #1a110a; }
     td, th { border-color: #3a281c !important; }
-    thead th { background: #2c1d14 !important; }
+    thead th, .imprint th { background: #2c1d14 !important; }
     blockquote { background: #2c1d14 !important; }
     a { color: #ffb970 !important; }
+    .imprint { border-top-color: #3a281c !important; }
   }
   h1 { font-size: 1.6rem; margin: 0 0 4px; }
   h2 { font-size: 1.2rem; margin: 2.2em 0 .6em; }
@@ -33,12 +34,44 @@
   hr { border: 0; border-top: 1px solid #e6d5c8; margin: 2.5em 0; }
   .nav { margin-bottom: 2em; font-size: .9rem; }
   .nav a { margin-right: 12px; }
-  footer { margin-top: 3em; font-size: .85rem; opacity: .75; }
+  /* 사업자 정보 — **모든 페이지 하단에 고정 표시**. 스토어 심사·전자상거래 표기용이라
+     문서마다 빠지면 안 되므로, 각 md가 아니라 레이아웃에서 한 번에 렌더링한다. */
+  .imprint { margin-top: 3.5em; padding-top: 1.5em; border-top: 1px solid #e6d5c8; }
+  .imprint table { font-size: .88rem; margin: 0; }
+  .imprint th { width: 42%; background: #fff1e9; font-weight: 600; }
 </style>
 </head>
 <body>
 <div class="nav"><a href="{{ '/' | relative_url }}">&larr; Zzang Alarm Legal</a></div>
 {{ content }}
-<footer>InnoCode · innocode.core@gmail.com</footer>
+
+<div class="imprint">
+{% case page.lang %}
+{% when 'en' %}
+<table>
+<tr><th>Service</th><td>Zzang Alarm</td></tr>
+<tr><th>Operator</th><td>InnoCode</td></tr>
+<tr><th>Business registration no.</th><td>277-39-01496</td></tr>
+<tr><th>Privacy officer / contact</th><td>InnoCode · innocode.core@gmail.com</td></tr>
+<tr><th>Effective date</th><td>2026-07-28</td></tr>
+</table>
+{% when 'ja' %}
+<table>
+<tr><th>サービス名</th><td>Zzang Alarm（알람짱）</td></tr>
+<tr><th>運営者</th><td>InnoCode</td></tr>
+<tr><th>事業者登録番号</th><td>277-39-01496</td></tr>
+<tr><th>個人情報保護責任者 / お問い合わせ</th><td>InnoCode · innocode.core@gmail.com</td></tr>
+<tr><th>施行日</th><td>2026-07-28</td></tr>
+</table>
+{% else %}
+<table>
+<tr><th>서비스명</th><td>Zzang Alarm (알람짱)</td></tr>
+<tr><th>운영자</th><td>InnoCode</td></tr>
+<tr><th>사업자등록번호</th><td>277-39-01496</td></tr>
+<tr><th>개인정보 보호책임자 / 문의</th><td>InnoCode · innocode.core@gmail.com</td></tr>
+<tr><th>시행일</th><td>2026-07-28</td></tr>
+</table>
+{% endcase %}
+</div>
 </body>
 </html>
