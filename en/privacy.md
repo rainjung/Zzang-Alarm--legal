@@ -37,7 +37,7 @@ The following is transmitted **only when you use the relevant feature**.
 
 | Feature | Data sent | Recipient | Personal data included |
 | --- | --- | --- | --- |
-| Weather lookup | The **city name / coordinates** you entered | Open-Meteo | No location permission or account data |
+| Weather lookup | The **coordinates** of the city you selected | MET Norway (Norwegian Meteorological Institute) | No location permission or account data |
 | AI news briefing (Pro) | Only the **topics** you selected | Company proxy → OpenAI | **No schedules or personal data** |
 | Speech read-aloud (Pro) | The **text** to be read (opening, weather, schedule, news summary) | Company proxy → OpenAI (speech synthesis) | **If schedule read-aloud is enabled, schedule titles may be included in that text** |
 | Subscription payment (when offered) | Store payment and an **anonymous subscription identifier** | Apple/Google, payment provider (RevenueCat) | The app does not directly store payment or receipt data |
@@ -80,7 +80,7 @@ The Service is **not directed at children under the age of 14** and does not kno
 
 ## 9. Third-Party Links
 
-This policy does not apply to the privacy practices of third parties used by the Service (Open-Meteo, OpenAI, Apple/Google, RevenueCat, etc.). Please review each service's own policy.
+This policy does not apply to the privacy practices of third parties used by the Service (MET Norway, OpenAI, Apple/Google, RevenueCat, etc.). Please review each service's own policy.
 
 ## 10. Changes to This Policy
 
