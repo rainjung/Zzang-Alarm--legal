@@ -25,6 +25,13 @@ _config.yml              kramdown(GFM) 설정
 
 GitHub → Settings → Pages → Source: **Deploy from a branch** → `main` / `/ (root)`
 
+## ⚠️ 미결 사항
+
+- **법률 검토 미완** — 특히 면책(제8조)·준거법/관할(제10조). 공개 문서에서는 이 경고를
+  걷어냈으므로(독자에게 보일 내용이 아님) 여기서만 추적한다.
+- 사업자 등록·상호·문의처가 바뀌면 `_layouts/default.html`의 `.imprint`와
+  약관 제1조 본문(계약 당사자 표기)을 **함께** 고친다.
+
 ## 갱신 시 확인
 
 - 시행일(`최종 업데이트`)을 함께 올린다 — 3개 언어 6개 파일 모두.

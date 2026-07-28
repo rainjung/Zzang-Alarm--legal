@@ -6,8 +6,6 @@ lang: en
 
 # Privacy Policy
 
-> ⚠️ Legal review is recommended before publication. Update the operator details if the business registration or trade name changes.
-
 This policy explains how Zzang Alarm (the "Service") handles your personal information. The Service is built on the principles of **minimal collection** and **on-device (local-first) storage**.
 
 ---

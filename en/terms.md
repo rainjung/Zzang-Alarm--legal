@@ -6,8 +6,6 @@ lang: en
 
 # Terms of Use
 
-> ⚠️ Legal review is recommended before publication. Update the operator and jurisdiction clauses if the business registration or trade name changes.
-
 ---
 
 ## 1. Purpose
