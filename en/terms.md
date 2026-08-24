@@ -17,13 +17,15 @@ These Terms govern the rights, obligations and responsibilities between InnoCode
 1. **User** — a person who agrees to these Terms and uses the Service.
 2. **Alarm lock** — the wake-enforcement feature that allows an alarm to be dismissed only by scanning a barcode, or by voice together with a barcode.
 3. **Emergency dismissal (PIN)** — a last-resort method to dismiss an alarm using a pre-registered PIN when dismissal by the registered barcode or voice is not feasible.
-4. **Pro (subscription)** — features provided through a paid subscription (weather briefing, schedule read-aloud, AI news briefing, etc.).
+4. **Pro (subscription)** — features provided through a paid subscription (weather briefing, schedule read-aloud, etc.).
 
 ## 3. Scope of the Service
 
-1. **Free** — alarms (unlimited, including barcode and voice+barcode locks) and in-app local schedules (calendar).
-2. **Pro** — weather briefing, schedule read-aloud (speech synthesis), and AI news briefing.
+1. **Free** — alarms (unlimited, including barcode and voice+barcode locks), in-app local schedules (calendar) and schedule reminders.
+2. **Pro** — morning briefing read-aloud (date and weekday, weather, schedule).
 3. The Company may change the content of features to improve the Service; material changes will be announced in advance.
+4. **Briefing read-aloud uses the speech synthesis (TTS) built into your device.** Voice quality, the range of available voices and language support therefore depend on your device and OS settings, and narration may be limited if no voice for that language is installed on the device. The narration text does not leave your device (see Section 3 of the [Privacy Policy](privacy.html)).
+5. **The AI news briefing was removed from the Service on 2026-08-17.**
 
 ## 4. Limits of Alarm Playback — Important
 
@@ -87,4 +89,4 @@ Service inquiries: innocode.core@gmail.com
 
 ---
 
-*Last updated: 2026-07-28 · These Terms apply together with the [Privacy Policy](privacy.html).*
+*Last updated: 2026-08-24 · These Terms apply together with the [Privacy Policy](privacy.html).*

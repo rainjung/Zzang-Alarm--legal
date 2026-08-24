@@ -24,6 +24,7 @@ Legal documents for the Zzang Alarm mobile app. / Zzang Alarm の法的告知文
 - **기기 캘린더에 접근하지 않습니다** — We never access your device calendar. / 端末カレンダーにアクセスしません。
 - **광고 없음** — No advertising. / 広告なし。
 - 바코드는 **원문 대신 SHA-256 해시만** 저장합니다 — Barcodes are stored as a SHA-256 hash, never the raw value.
+- **AI 서비스에 데이터를 보내지 않습니다** — 브리핑 낭독은 기기 내 음성 합성(TTS)으로 처리됩니다. / We send no data to AI services — briefing narration runs on-device. / AIサービスにデータを送信しません。読み上げは端末内で処理されます。
 
 > ⚠️ **알람 울림의 한계** — iOS에서는 앱을 강제 종료하거나 기기를 재부팅하면 알람이 울리지 않습니다.
 > 자세한 내용은 이용약관 제4조를 확인해 주세요.
