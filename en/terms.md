@@ -21,11 +21,12 @@ These Terms govern the rights, obligations and responsibilities between InnoCode
 
 ## 3. Scope of the Service
 
-1. **Free** — alarms (unlimited, including barcode and voice+barcode locks), in-app local schedules (calendar) and schedule reminders.
+1. **Free** — alarms (unlimited, including barcode and voice+barcode locks), in-app local schedules (calendar) and schedule reminders, and **device calendar overlay** (optional, read-only).
 2. **Pro** — morning briefing read-aloud (date and weekday, weather, schedule).
 3. The Company may change the content of features to improve the Service; material changes will be announced in advance.
 4. **Briefing read-aloud uses the speech synthesis (TTS) built into your device.** Voice quality, the range of available voices and language support therefore depend on your device and OS settings, and narration may be limited if no voice for that language is installed on the device. The narration text does not leave your device (see Section 3 of the [Privacy Policy](privacy.html)).
-5. **The AI news briefing was removed from the Service on 2026-08-17.**
+5. **The device calendar overlay is optional and read-only.** Events from the calendars you pick (Google, Samsung, …) are shown alongside your app schedule and, if you choose, read aloud in your briefing. The Company **never adds, changes or deletes** events in your device calendar. The content and sync state of those events depend on their provider and are not guaranteed by the Company, and the rest of the app works whether or not you grant the permission.
+6. **The AI news briefing was removed from the Service on 2026-08-17.**
 
 ## 4. Limits of Alarm Playback — Important
 
@@ -89,4 +90,4 @@ Service inquiries: innocode.core@gmail.com
 
 ---
 
-*Last updated: 2026-08-24 · These Terms apply together with the [Privacy Policy](privacy.html).*
+*Last updated: 2026-08-25 · These Terms apply together with the [Privacy Policy](privacy.html).*
