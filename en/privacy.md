@@ -29,7 +29,7 @@ The following is stored only in local storage (`shared_preferences`) and local f
 | Alarm settings | Time, repeat, label, sound, vibration, snooze | |
 | Barcode lock | **Only a SHA-256 hash is stored — never the raw barcode** | Raw values and hashes are never logged |
 | Barcode hint photo | Reference image taken at registration | Local file; deleted on re-registration |
-| Voice lock sample | Recording of the dismissal phrase | Stored locally; can be deleted |
+| Voice lock sample | Recording of the dismissal phrase | Stored on device only; deleted when you uninstall the app |
 | App schedules (calendar) | Title, time, location, memo, reminder settings | **Never exported** to the device calendar |
 | Device calendar selection | Only the **identifiers** of the calendars you chose | Event contents are not stored — they are read each time you look |
 | Emergency PIN | Last-resort method to dismiss a locked alarm | **Only a salted SHA-256 hash is stored — never the raw PIN** |
