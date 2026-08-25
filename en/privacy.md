@@ -16,7 +16,8 @@ This policy explains how Zzang Alarm (the "Service") handles your personal infor
 - **We do not request location (GPS) permission** — weather is looked up by a city name you enter yourself.
 - **We read your device calendars only if you turn it on** — an optional feature that shows events from the calendars you pick (Google, Samsung, …) alongside your app schedule. We **never add, change or delete** them, and what we read **never leaves your device**. The rest of the app works whether or not you allow it.
 - **The Company operates no server.** There is no Company-side server that the app sends your data to.
-- The app makes **exactly one outbound request: the weather lookup** (see Section 3). Nothing else leaves your device.
+- The only request the app itself sends out is **the weather lookup** (see Section 3).
+- **Voice lock records and stores no audio.** Turning what you say into text is done by your **device's operating system**, and depending on the device and its settings **the OS may send that audio to Apple or Google for processing** (see Section 3).
 - **We send no data to AI services.** Briefing read-aloud is handled by your device's own speech synthesis (TTS) and uses no network.
 - **We do not use advertising.**
 
@@ -29,7 +30,7 @@ The following is stored only in local storage (`shared_preferences`) and local f
 | Alarm settings | Time, repeat, label, sound, vibration, snooze | |
 | Barcode lock | **Only a SHA-256 hash is stored — never the raw barcode** | Raw values and hashes are never logged |
 | Barcode hint photo | Reference image taken at registration | Local file; deleted on re-registration |
-| Voice lock sample | Recording of the dismissal phrase | Stored on device only; deleted when you uninstall the app |
+| Voice lock phrase | The sentence you say to dismiss, **as text** | Stored on device only; **no audio is recorded or saved** |
 | App schedules (calendar) | Title, time, location, memo, reminder settings | **Never exported** to the device calendar |
 | Device calendar selection | Only the **identifiers** of the calendars you chose | Event contents are not stored — they are read each time you look |
 | Emergency PIN | Last-resort method to dismiss a locked alarm | **Only a salted SHA-256 hash is stored — never the raw PIN** |
@@ -48,6 +49,10 @@ The following is transmitted **only when you use the relevant feature**.
 - The **weather lookup above is the only external API the app calls directly**. Payments are handled by each store's SDK.
 - All external communication uses **HTTPS** only.
 
+**Speech recognition performed by your operating system**
+
+When you dismiss an alarm by voice, turning what you say into text is performed by your **device's operating system** (Apple speech recognition / Google speech recognition), not by the app. Depending on the device, language and settings, this may happen **on the device, or the OS may send the audio to that provider's servers.** Such transmission is carried out by the operating system and is governed by Apple's and Google's privacy policies; **we never receive the audio or the recognised text.** The app does not record audio or save it to a file — the recognised text is compared with your registered phrase and then discarded.
+
 ### What Is Not Sent
 
 - **Briefing read-aloud (Pro)** — the narration text includes the date, weekday and weather along with **your schedule titles**. That text is **processed entirely by the speech synthesis (TTS) engine on your device and is never transmitted.** It works with no network connection.
@@ -64,7 +69,7 @@ The following is transmitted **only when you use the relevant feature**.
 | --- | --- | --- |
 | Notifications | Showing alarms and schedule reminders | When you save an alarm, or turn on a schedule reminder |
 | Camera | Scanning the barcode lock | When you use the barcode lock |
-| Microphone / speech recognition | Recording and matching the voice lock | When you use the voice lock |
+| Microphone / speech recognition | Dismissing by voice — what you say is turned into text and matched against your phrase | When you dismiss an alarm by voice |
 | Exact alarms (Android) | Ringing the alarm at the exact time | When you save an alarm |
 | Battery optimisation exemption (Android) | Preventing power-saving from delaying or dropping alarms | Only when you choose it from the in-app notice |
 | Location | **Not requested** | — |
@@ -109,4 +114,4 @@ Privacy inquiries: InnoCode · innocode.core@gmail.com
 
 ---
 
-*Last updated: 2026-08-25 · This policy applies together with the [Terms of Use](terms.html).*
+*Last updated: 2026-08-26 · This policy applies together with the [Terms of Use](terms.html).*
